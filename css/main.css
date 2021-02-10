@@ -417,7 +417,7 @@ input.input100 {
   overflow: hidden;
 }
 
-.how-btn::before {
+/* .how-btn::before {
   content: "";
   display: block;
   position: absolute;
@@ -436,13 +436,14 @@ input.input100 {
   -moz-transition: all 0.4s;
   transition: all 0.4s;
   opacity: 0;
-}
+} */
 
 .how-btn:before {
   opacity: 1;
 }
-how-btn:hover{
-color:#111;
+.how-btn1:hover {
+  background-color: #fff;
+  color: #111;
 }
 /*---------------------------------------------*/
 .how-btn1 {
