@@ -435,7 +435,8 @@ input.input100 {
 }
 /*---------------------------------------------*/
 .how-btn3 {
-  background-color: #d20116;
+  background-color:transparent;
+  border: 2px solid #fff;
   border-radius: 25px;
   padding: 0 20px;
 }
