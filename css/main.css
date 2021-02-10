@@ -426,11 +426,11 @@ input.input100 {
   height: 100%;
   top: 0;
   left: 0;
-  background: #000000;
-  background: -webkit-linear-gradient(-45deg, #111, #000, #2c0505, #771515, #d20116);
+  background: #ffffff;
+/*   background: -webkit-linear-gradient(-45deg, #111, #000, #2c0505, #771515, #d20116);
   background: -o-linear-gradient(-45deg, #111, #000, #2c0505, #771515, #d20116);
   background: -moz-linear-gradient(-45deg, #111, #000, #2c0505, #771515, #d20116);
-  background: linear-gradient(-45deg, #111, #000, #2c0505, #771515, #d20116);
+  background: linear-gradient(-45deg, #111, #000, #2c0505, #771515, #d20116); */
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
@@ -440,6 +440,7 @@ input.input100 {
 
 .how-btn:hover:before {
   opacity: 1;
+      color: #0000; 
 }
 
 /*---------------------------------------------*/
