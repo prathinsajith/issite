@@ -1,9 +1,5 @@
 /*------------------------------------------------------------------
 Project:  ComingSoon
-Version:  
-Last change:  
-Assigned to:  Bach Le
-Primary use:  
 -------------------------------------------------------------------*/
 
 
@@ -408,38 +404,10 @@ input.input100 {
 
 /*---------------------------------------------*/
 .how-btn {
-  padding: 10px 20px;
   background-color: transparent;
   border-radius: 25px;
   border: 2px solid #fff;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-}
-
-/* .how-btn::before {
-  content: "";
-  display: block;
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: #ffffff;
-  background: -webkit-linear-gradient(-45deg, #111, #000, #2c0505, #771515, #d20116);
-  background: -o-linear-gradient(-45deg, #111, #000, #2c0505, #771515, #d20116);
-  background: -moz-linear-gradient(-45deg, #111, #000, #2c0505, #771515, #d20116);
-  background: linear-gradient(-45deg, #111, #000, #2c0505, #771515, #d20116);
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
-  opacity: 0;
-} */
-
-.how-btn:before {
-  opacity: 1;
+   padding: 0px 20px;
 }
 .how-btn:hover {
   background-color: #fff;
