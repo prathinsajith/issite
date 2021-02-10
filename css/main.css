@@ -433,7 +433,17 @@ input.input100 {
 .how-btn2:hover {
   color: rgba(255,255,255,1);
 }
+/*---------------------------------------------*/
+.how-btn3 {
+  background-color: #d20116;
+  border-radius: 25px;
+  padding: 0 20px;
+}
 
+.how-btn3:hover {
+  background-color: #fff;
+  color: #111;
+}
 /*//////////////////////////////////////////////////////////////////
 [ Pseudo ]*/
 
